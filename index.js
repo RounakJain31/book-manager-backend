@@ -2,8 +2,8 @@ import express from 'express';
 import mongoose from 'mongoose';
 import dotenv from 'dotenv';
 import cors from 'cors';
-import authRoutes from './routes/authRoutes.js';
-import bookRoutes from './routes/bookRoutes.js';
+import authRoutes from './src/routes/authRoutes.js';
+import bookRoutes from './src/routes/bookRoutes.js';
 
 dotenv.config();
 const app = express();
